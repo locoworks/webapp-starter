@@ -5,13 +5,13 @@ import routers from "./routes";
 export default function App() {
   return (
     <>
-      <header>Wiredup Header</header>
+      <header className="bg-yellow-300 text-center p-5">Header</header>
 
       <body>
         <RouterProvider router={routers} />
       </body>
 
-      <header>Wiredup Footer</header>
+      <header className="bg-green-300 text-center p-5">Footer</header>
     </>
   );
 }
