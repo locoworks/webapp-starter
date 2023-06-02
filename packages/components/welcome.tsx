@@ -12,7 +12,7 @@ const Welcome: React.FC<{}> = () => {
         </Link>
 
         <p className="text-center font-bold">
-          This is going to be the coolest app in the world!
+          This is going to be the coolest app in the world!**
         </p>
       </div>
       {/* <div className="w-screen h-screen bg-red-300"></div> */}
