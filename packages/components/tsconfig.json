@@ -8,7 +8,8 @@
     "jsx": "react",
     "resolveJsonModule": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "baseUrl": "src/"
   },
   "include": ["", "src"],
   "exclude": ["dist/**", "src/main.tsx"]
