@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import Welcome from "components/Welcome";
+import Welcome from "components/Welcome.tsx";
 
 export default createBrowserRouter([
   {
