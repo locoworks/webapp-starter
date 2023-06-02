@@ -1,6 +1,7 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Welcome() {
+const Welcome: React.FC<{}> = () => {
   return (
     <>
       <div className="wrapper w-screen h-screen bg-red-300">
@@ -17,4 +18,6 @@ export default function Welcome() {
       {/* <div className="w-screen h-screen bg-red-300"></div> */}
     </>
   );
-}
+};
+
+export default Welcome;
